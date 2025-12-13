@@ -5,6 +5,7 @@
     <OutputType>WinExe</OutputType>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseSystemSqlite>True</UseSystemSqlite>
   </PropertyGroup>
 
   <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('FreeBSD'))">

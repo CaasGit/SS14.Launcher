@@ -11,6 +11,7 @@
     <DefineConstants Condition="'$(FullRelease)' != 'True'">DEVELOPMENT;$(DefineConstants)</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>CA1416</NoWarn>
+    <UseSystemSqlite>True</UseSystemSqlite>
   </PropertyGroup>
   <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('FreeBSD'))">
     <UseSystemSqlite>True</UseSystemSqlite>
